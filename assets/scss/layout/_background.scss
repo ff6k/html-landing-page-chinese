@@ -1,0 +1,262 @@
+/*------------------------------------*\
+    #BACKGROUNDS
+\*------------------------------------*/
+.bg-theme {
+	background-color: $color-theme !important
+}
+
+.bg-primary-alt {
+	background-color: $color-hover !important
+}
+
+.bg-gray {
+	background-color: $color-gray !important;
+}
+
+.bg-white {
+	background-color: $color-white !important
+}
+
+.bg-dark {
+	background-color: $color-heading !important
+}
+
+.bg-gradient {
+	background: bottom center $color-white;
+}
+
+.bg-light-primary {
+	background-color: #F1F8FE !important;
+}
+
+/* Background Image */
+.bg-section {
+	position           : relative;
+	overflow           : hidden;
+	z-index            : 1;
+	background-size    : cover;
+	background-repeat  : no-repeat;
+	background-position: center center;
+	width              : 100%;
+	height             : 100%;
+}
+
+.bg-overlay:before {
+	content : "";
+	display : inline-block;
+	height  : 100%;
+	left    : 0;
+	position: absolute;
+	top     : 0;
+	width   : 100%;
+	z-index : -1;
+}
+
+.bg-overlay-light:before {
+	background-color: $color-white;
+	opacity         : 0.8;
+}
+
+.bg-overlay-dark:before {
+	background-color: #212529;
+	opacity         : 0.7;
+}
+
+.bg-overlay-theme:before {
+	background-color: $color-theme;
+	opacity         : 0.7;
+}
+
+.bg-parallax {
+	background-attachment: fixed;
+}
+
+.bg-ytvideo.bg-overlay:before {
+	z-index: 1;
+	opacity: .7;
+}
+
+/* Background Color Palettes */
+
+.bg-purple {
+	color           : $color-white;
+	background-color: #cc66cc !important;
+}
+
+.bg-sun-flower {
+	color           : $color-white;
+	background-color: #f1c40f !important;
+}
+
+.bg-orange {
+	color           : $color-white;
+	background-color: #f39c12 !important;
+}
+
+.bg-carrot {
+	color           : $color-white;
+	background-color: #e67e22 !important;
+}
+
+.bg-pumpkin {
+	color           : $color-white;
+	background-color: #d35400 !important;
+}
+
+.bg-alizarin {
+	color           : $color-white;
+	background-color: #e74c3c !important;
+}
+
+.bg-pomegranate {
+	color           : $color-white;
+	background-color: #c0392b !important;
+}
+
+.bg-turquoise {
+	color           : $color-white;
+	background-color: #1abc9c !important;
+}
+
+.bg-green-sea {
+	color           : $color-white;
+	background-color: #16a085 !important;
+}
+
+.bg-emerald {
+	color           : $color-white;
+	background-color: #2ecc71 !important;
+}
+
+.bg-nephritis {
+	color           : $color-white;
+	background-color: #27ae60 !important;
+}
+
+.bg-peter-river {
+	color           : $color-white;
+	background-color: #3498db !important;
+}
+
+.bg-belize-hole {
+	color           : $color-white;
+	background-color: #2980b9 !important;
+}
+
+.bg-amethyst {
+	color           : $color-white;
+	background-color: #9b59b6 !important;
+}
+
+.bg-wisteria {
+	color           : $color-white;
+	background-color: #8e44ad !important;
+}
+
+.bg-wet-asphalt {
+	color           : $color-white;
+	background-color: #34495e !important;
+}
+
+.bg-wet-asphalt {
+	color           : $color-white;
+	background-color: #34495e !important;
+}
+
+.bg-midnight-blue {
+	color           : $color-white;
+	background-color: #2c3e50 !important;
+}
+
+
+
+.bg-silver {
+	color           : $color-white;
+	background-color: #bdc3c7 !important;
+}
+
+.bg-concrete {
+	color           : $color-white;
+	background-color: #859596 !important;
+}
+
+.bg-asbestos {
+	color           : $color-white;
+	background-color: #7f8c8d !important;
+}
+
+.bg-asbestos {
+	color           : $color-white;
+	background-color: #7f8c8d !important;
+}
+
+.bg-graphite {
+	color           : $color-white;
+	background-color: #454545 !important;
+}
+
+.bg-gray-0 {
+	background-color: #EEEEEE !important;
+	color           : #454545;
+}
+
+.bg-gray-1 {
+	background-color: #ECECEC !important;
+	color           : #454545;
+}
+
+.bg-gray-2 {
+	background-color: #BDC3C7 !important;
+	color           : #454545;
+}
+
+.bg-gray-3 {
+	background-color: #DADFE1 !important;
+	color           : #454545;
+}
+
+.bg-gray-5 {
+	background-color: #ECF0F1 !important;
+	color           : #454545;
+}
+
+.bg-gray-4 {
+	background-color: #F2F1EF !important;
+	color           : #454545;
+}
+
+.bg-gray-6 {
+	background-color: #D2D7D3 !important;
+	color           : #454545;
+}
+
+.bg-gray-7 {
+	background-color: #E6E6E6 !important;
+	color           : #454545;
+}
+
+.bg-orange-1 {
+	background-color: #F9690E !important;
+	color           : $color-white;
+}
+
+.bg-orange-2 {
+	background-color: #D35400 !important;
+	color           : $color-white;
+}
+
+.bg-orange-3 {
+	background-color: #F89406 !important;
+	color           : $color-white;
+}
+
+.divider-1 {
+	height          : 1px;
+	background-color: #fce5e6;
+}
+
+.divider-2 {
+	height          : 1px;
+	width           : 100%;
+	background-color: #fdedee;
+}

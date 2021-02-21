@@ -1,0 +1,169 @@
+/*------------------------------------*\
+    #Menu
+\*------------------------------------*/
+.header {
+
+	.navbar {
+		margin-bottom: 0;
+		border-radius: 0;
+		min-height   : 100px;
+		border       : none;
+		padding      : 0;
+
+		.navbar-brand {
+			margin-right: 0;
+
+			.logo-dark {
+				display: none;
+			}
+
+			.logo-light {
+				display: inline-block;
+			}
+		}
+
+		.navbar-nav {
+			>li {
+				margin-right: 30px;
+				position    : relative;
+
+				&:last-child {
+					margin-right: 0;
+				}
+
+				>a {
+					font-family   : $font-heading;
+					font-size     : 16px;
+					text-transform: capitalize;
+					font-weight   : 500;
+					line-height   : 100px;
+					color         : $color-white;
+					padding       : 0;
+					position      : relative;
+					display       : block;
+					transition    : 0.3s ease-in-out;
+
+					@media screen and (min-width:992px) {
+						&::before {
+							position        : absolute;
+							left            : 0;
+							bottom          : 35px;
+							content         : '';
+							height          : 2px;
+							width           : 0;
+							background-color: #E2E2E2;
+							transition      : width 300ms linear;
+						}
+
+					}
+
+
+				}
+
+				&.active>a,
+				>a:focus,
+				>a:hover {
+					@media screen and (min-width:992px) {
+						&:before {
+							width: 50%;
+						}
+					}
+				}
+
+				@media #{$maxTablet} {
+					margin-right: 0;
+
+					a {
+						margin-right: 0;
+						padding     : 15px 10px;
+						color       : $color-heading;
+						line-height : 1;
+					}
+
+					&.active {
+						background-color: $color-theme;
+						border-radius   : 4px;
+
+						a {
+							color: $color-white
+						}
+					}
+				}
+			}
+		}
+
+		&.navbar-fixed {
+			top       : 0;
+			background: $color-white;
+			box-shadow: 0 2px 4px rgba(3, 27, 78, 0.1);
+			animation : navbarFixed 0.8s;
+
+			.navbar-brand {
+				.logo-dark {
+					display: inline-block;
+				}
+
+				.logo-light {
+					display: none;
+				}
+			}
+
+			.navbar-nav> {
+				li {
+					a {
+						color      : $color-hover;
+						line-height: 1;
+
+						&::before {
+							bottom: -8px;
+						}
+
+						@media #{$maxTablet} {
+							&:hover {
+								background-color: $color-theme;
+								color           : $color-white;
+							}
+						}
+					}
+
+					&.active>a,
+					>a:focus,
+					>a:hover {
+						&:before {
+							background-color: $color-hover;
+						}
+					}
+
+					&.active {
+
+						a {
+							color: $color-hover;
+						}
+
+						@media #{$maxTablet} {
+							background-color: $color-hover;
+
+							a {
+								color: $color-white;
+							}
+						}
+					}
+
+				}
+			}
+
+		}
+	}
+}
+
+@keyframes navbarFixed {
+	0% {
+		opacity  : 0;
+		transform: translateY(-100%);
+	}
+
+	100% {
+		opacity  : 1;
+		transform: translateY(0);
+	}
+}

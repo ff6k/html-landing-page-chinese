@@ -1,0 +1,265 @@
+/*------------------------------------*\
+    #BUTTONS
+\*------------------------------------*/
+.btn {
+    font-family   : $font-heading;
+    display       : inline-block;
+    position      : relative;
+    z-index       : 2;
+    font-size     : 16px;
+    font-weight   : 600;
+    text-transform: capitalize;
+    text-align    : center;
+    border-radius : 0;
+    padding       : 0;
+    width         : 170px;
+    height        : 51px;
+    line-height   : 49px;
+    transition    : 350ms ease-in-out;
+    border-radius : 4px;
+    overflow      : hidden;
+
+    &.active,
+    &:active,
+    &:focus,
+    &:active:focus,
+    &.active:focus,
+    &.focus,
+    &.focus:active,
+    &.active.focus {
+        outline   : none;
+        box-shadow: none;
+    }
+
+    .icon {
+        margin-left: 10px;
+    }
+
+}
+
+.btn-video {
+    width           : 80px;
+    height          : 80px;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    background-color: $color-white;
+    border-radius   : 50%;
+
+    i {
+        font-size: 16px;
+        color    : $color-theme;
+    }
+
+    &:hover {
+        background-color: $color-theme;
+
+        i {
+            color: $color-white;
+        }
+    }
+}
+
+
+a.back {
+    position      : absolute;
+    top           : 54px;
+    left          : 70px;
+    font-size     : 14px;
+    font-weight   : 500;
+    line-height   : 2.14;
+    text-transform: capitalize;
+    color         : $color-white;
+
+    &:hover {
+        span {
+            transform: rotate(-180deg) translateX(10px);
+        }
+    }
+
+    span {
+        transition  : 0.3s ease-in-out;
+        display     : inline-block;
+        transform   : rotate(-180deg);
+        margin-right: 15px;
+    }
+}
+
+/* Button Primary */
+.btn--primary {
+    background-color: $color-theme;
+    color           : $color-white;
+
+    &:active,
+    &:focus,
+    &:hover {
+        color: $color-white
+    }
+}
+
+.bg-dark {
+    .btn--primary {
+
+        &:active,
+        &:focus,
+        &:hover {
+            background-color: $color-hover;
+            color           : $color-white;
+        }
+    }
+}
+
+/* Button Secondary*/
+.btn--secondary {
+    background-color: $color-secondary;
+    color           : $color-white;
+
+    &:active,
+    &:focus,
+    &:hover {
+        background-color: $color-theme;
+        color           : $color-white;
+    }
+
+    &.btn--hover-white {
+
+        &:active,
+        &:focus,
+        &:hover {
+            background-color: $color-white;
+            color           : $color-hover;
+        }
+    }
+}
+
+/* Button White */
+.btn--white {
+    background-color: $color-white;
+    color           : $color-heading;
+    border          : 1px solid $color-white;
+    border-radius   : 4px;
+
+    &:active,
+    &:focus,
+    &:hover {
+        background-color: $color-theme;
+        color           : $color-white;
+        border-color    : $color-theme;
+    }
+}
+
+/* Button Block */
+.btn--block {
+    width: 100%;
+}
+
+.btn--auto {
+    width  : auto;
+    padding: 0 17px;
+}
+
+/* Button Rounded */
+.btn--rounded {
+    border-radius: 50px;
+}
+
+/* Button Bordered */
+
+.btn--bordered {
+    background-color: transparent;
+
+    &.btn--primary {
+        color       : $color-theme;
+        border-color: $color-theme;
+
+        &:active,
+        &:focus,
+        &:hover {
+            color           : $color-white;
+            background-color: $color-theme;
+            border-color    : $color-theme;
+        }
+    }
+
+    &.btn--secondary {
+        color       : $color-heading;
+        border-color: $color-heading;
+
+        &:active,
+        &:focus,
+        &:hover {
+            color           : $color-white;
+            background-color: $color-heading;
+            border-color    : $color-heading;
+        }
+    }
+
+    &.btn--white {
+        color       : $color-white;
+        border-color: $color-white;
+
+        &:active,
+        &:focus,
+        &:hover {
+            color           : $color-theme;
+            background-color: $color-white;
+            border-color    : $color-white;
+        }
+    }
+}
+
+.btn--white {
+    &.btn--secondary {
+        color           : $color-secondary;
+        border-color    : $color-white;
+        background-color: $color-white;
+
+        &:active,
+        &:focus,
+        &:hover {
+            color           : $color-white;
+            background-color: $color-theme;
+            border-color    : $color-theme;
+        }
+    }
+}
+
+
+/* Btn Arrows */
+.btn--arrows {
+    position: relative;
+
+    &:before {
+        position   : absolute;
+        top        : -100%;
+        left       : 0;
+        width      : 100%;
+        height     : 100%;
+        font-size  : 26px;
+        line-height: 51px;
+        font-family: 'icomoon';
+        content    : "\e901";
+        transition : all 0.3s;
+    }
+
+    span {
+        transition: all 0.3s;
+        display   : inline-block;
+        height    : 100%;
+        width     : 100%;
+
+        i {
+            margin-left: 7px;
+        }
+    }
+
+    &:hover {
+        span {
+            transform: translateY(300%);
+        }
+
+        &:before {
+            top: 0;
+        }
+    }
+}

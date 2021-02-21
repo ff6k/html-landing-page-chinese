@@ -1,0 +1,139 @@
+/*------------------------------------*\
+    #Footer
+\*------------------------------------*/
+
+.footer {
+    padding-top     : 250px;
+    position        : relative;
+    background-color: $color-hover;
+    margin-top      : -200px;
+
+    .footer-top {
+        padding: 65px 0;
+
+        @media #{$maxTablet} {
+            text-align: center;
+            padding   : 35px 0;
+        }
+
+        .footer-logo {
+            img {
+                max-width: 100%;
+                height   : auto;
+            }
+        }
+
+        .footer-navigation {
+            margin-bottom: 0;
+            text-align   : center;
+
+            @media #{$maxTablet} {
+                margin-top   : 20px;
+                margin-bottom: 20px;
+            }
+
+            li {
+                display     : inline-block;
+                margin-right: 30px;
+
+                @media #{$maxTablet} {
+                    margin-right: 16px;
+                }
+
+                &:last-child {
+                    margin-right: 0;
+                }
+
+                a {
+                    font-size     : 18px;
+                    line-height   : 42px;
+                    color         : $color-white;
+                    font-weight   : 500;
+                    font-family   : $font-body;
+                    padding       : 0;
+                    transition    : 300ms ease-in-out;
+                    text-transform: capitalize;
+
+                    &:hover {
+                        color: $color-secondary;
+                    }
+                }
+            }
+        }
+
+        .footer-social {
+            text-align: right;
+
+            @media #{$maxTablet} {
+                text-align: center;
+            }
+
+            ul {
+                margin-bottom: 0;
+
+                li {
+                    display     : inline-block;
+                    margin-right: 20px;
+
+
+                    @media screen and (min-width:992px) and (max-width:1200px) {
+                        margin-right: 10px;
+                    }
+
+                    &:last-child {
+                        margin-right: 0;
+                    }
+
+                    a {
+                        font-size  : 17px;
+                        line-height: 42px;
+                        color      : $color-white;
+
+                        &:hover {
+                            color: $color-secondary;
+                        }
+
+                    }
+                }
+            }
+
+        }
+    }
+
+    .footer-bottom {
+        background-color: $color-hover;
+
+        hr {
+            border-color: rgba(255, 255, 255, .1);
+        }
+
+        .footer-copyright {
+            padding-top   : 38px;
+            padding-bottom: 38px;
+            font-family   : $font-heading;
+            font-size     : 14px;
+            font-weight   : 400;
+            line-height   : 1.5;
+            text-transform: capitalize;
+            color         : #D8DBFC;
+
+            a {
+                color      : $color-white;
+                font-weight: 600;
+
+                &:hover {
+                    color: $color-secondary;
+                }
+            }
+
+        }
+    }
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .footer-copyright {
+        font-size: 12px;
+    }
+}

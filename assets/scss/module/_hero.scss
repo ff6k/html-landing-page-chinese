@@ -1,0 +1,220 @@
+/*------------------------------------*\
+    #Hero
+\*------------------------------------*/
+
+.hero {
+    padding-top        : 200px;
+    padding-bottom     : 300px;
+    overflow           : visible;
+    background-position: left center;
+    position           : relative;
+
+    @media #{$maxSmall} {
+        padding: 150px 0;
+    }
+
+    @media screen and (min-width: 768px) and (max-width:1200px) {
+        padding-top: 190px;
+        padding-bottom: 160px;
+    }
+
+    .hero-cotainer {
+
+        .hero-content {
+            padding-top    : 100px;
+            display        : flex;
+            flex-direction : column;
+            justify-content: center;
+
+            @media screen and (max-width:991px) {
+                padding-top: 0;
+            }
+
+            @media screen and (max-width:767px) {
+                text-align: center;
+                max-width   : 430px;
+                margin-right: auto;
+                margin-left : auto;
+            }
+
+            .hero-headline {
+                color         : $color-white;
+                font-family   : $font-heading;
+                font-size     : 46px;
+                font-weight   : 700;
+                line-height   : 1.15;
+                margin-bottom : 20px;
+                text-transform: none;
+
+
+                @media #{$maxTablet} {
+                    font-size: 32px;
+
+                    br {
+                        display: none;
+                    }
+                }
+
+                @media screen and (min-width:992px) and (max-width:1200px) {
+                    font-size: 40px;
+
+                    br {
+                        display: none;
+                    }
+                }
+
+                @media screen and (max-width:767px) {
+                    font-size: 36px;
+                }
+            }
+
+            .hero-bio {
+                color        : $color-white;
+                font-family  : $font-body;
+                font-size    : 16px;
+                font-weight  : 400;
+                line-height  : 27px;
+                margin-bottom: 42px;
+
+                br {
+                    @media screen and (max-width:1200px) {
+                        display: none;
+                    }
+                }
+            }
+
+            .hero-action {
+
+                @media screen and (max-width:991px) {
+                    margin-bottom: 30px;
+                }
+
+                .contact-body {
+                    .contactForm {
+                        position: relative;
+
+                        .form-control {
+                            margin-bottom   : 0;
+                            background-color: $color-white;
+                            border-radius   : 4px;
+                            padding-left    : 40px;
+                            padding-right   : 250px;
+                            border-bottom   : 0;
+
+                            @media #{$maxSmall} {
+                                padding-left : 6px;
+                                padding-right: 200px;
+                            }
+                        }
+
+                        .btn {
+                            position: absolute;
+                            top     : 3px;
+                            right   : 3px;
+
+                            @media #{$maxSmall} {
+                                width: 170px;
+                            }
+                        }
+                    }
+                }
+
+                .form-action {
+                    position    : relative;
+                    max-width   : 600px;
+                    margin-right: auto;
+                    margin-left : auto;
+
+
+
+                    .input-group {
+                        border          : none;
+                        height          : 65px;
+                        padding         : 7px;
+                        border-radius   : 6px;
+                        background-color: $color-white;
+
+                        .btn {
+                            width      : 170px;
+                            height     : 50px;
+                            line-height: 50px;
+
+                            .icon {
+                                margin-left: 10px;
+                            }
+
+                            @media #{$maxSmall} {
+                                width: 120px;
+                            }
+                        }
+                    }
+
+                    .form-control {
+                        margin-bottom: 0;
+                        border-radius: 0;
+                        padding-left : 24px;
+                        padding-right: 200px;
+                        border-bottom: 0;
+                        width        : calc(100% - 170px);
+                        height       : 50px;
+
+                        @media #{$maxSmall} {
+                            padding-left : 25px;
+                            padding-right: 130px;
+                            width        : calc(100% - 120px);
+                        }
+                    }
+
+                    .btn {
+                        position: absolute;
+                        top     : 7px;
+                        right   : 7px;
+                        z-index : 60;
+
+                        &:hover,
+                        &:focus {
+                            background-color: $color-hover;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+}
+
+.divider-shape {
+    position: absolute;
+    top     : auto;
+    right   : 0;
+    bottom  : 0;
+    left    : 0;
+}
+
+.divider-shape-top {
+    position: absolute;
+    top     : 0;
+    right   : 0;
+    bottom  : auto;
+    left    : 0;
+}
+
+.divider-rotate {
+    transform : rotate(180deg);
+    margin-top: -170px;
+    height    : 170px;
+
+    @media screen and (max-width:575px) {
+        height    : 100px;
+        margin-top: -100px;
+    }
+}
+
+
+.divider-shape-bottom {
+    position: absolute;
+    bottom  : 0;
+    right   : 0;
+    left    : 0;
+}

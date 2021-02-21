@@ -1,0 +1,131 @@
+/*------------------------------------*\
+    #Accordion
+\*------------------------------------*/
+/* Accordion Base */
+
+.accordion {
+    margin-top: 40px;
+
+    .card,
+    .card:first-of-type,
+    .card:not(:first-of-type):not(:last-of-type),
+    .card:last-of-type {
+        box-shadow      : 0 0 40px rgba(101, 93, 93, 0.16);
+        border          : none;
+        background-color: $color-white;
+        margin-bottom   : 24px;
+        border-radius   : 4px;
+        border-left     : 4px solid $color-theme;
+
+        &.style-1 {
+            border-left-color: #F57565;
+
+            .card-heading {
+                .card-link {
+                    &:after {
+
+                        color: #F57565;
+                    }
+                }
+            }
+        }
+
+        &.style-2 {
+            border-left-color: #9EEBE6;
+
+            .card-heading {
+                .card-link {
+                    &:after {
+
+                        color: #9EEBE6;
+                    }
+                }
+            }
+        }
+
+        &.style-3 {
+            border-left-color: #9775F9;
+
+            .card-heading {
+                .card-link {
+                    &:after {
+                        color: #9775F9;
+                    }
+                }
+            }
+        }
+
+        &.style-4 {
+            border-left-color: $color-theme;
+
+            .card-heading {
+                .card-link {
+                    &:after {
+                        color: $color-theme;
+                    }
+                }
+            }
+        }
+
+        .card-heading {
+            padding: 30px;
+
+            @media #{$maxTablet} {
+                padding: 15px 25px 15px 15px;
+            }
+
+            .card-link {
+                font-family   : $font-heading;
+                font-size     : 16px;
+                color         : $color-heading;
+                font-weight   : 700;
+                line-height   : 20px;
+                text-transform: capitalize;
+                position      : relative;
+                display       : block;
+                padding-left  : 0;
+
+                @media #{$maxTablet} {
+                    font-size  : 16px;
+                    line-height: 1.8;
+                }
+
+                &:after {
+                    position   : absolute;
+                    right      : 0;
+                    top        : 0;
+                    content    : "\f077";
+                    font-family: $fontawesome;
+                    font-size  : 18px;
+                    font-weight: 600;
+                    color      : $color-theme;
+
+                    @media #{$maxTablet} {
+                        top      : 5px;
+                        right    : -10px;
+                        font-size: 14px;
+                    }
+                }
+
+                &.collapsed {
+                    &:after {
+                        content: "\f078";
+                    }
+                }
+            }
+        }
+
+        .card-body {
+            border-top : 1px solid rgba(0, 0, 0, 0.1);
+            font-family: $font-body;
+            padding    : 30px;
+            font-size  : 16px;
+            font-weight: 400;
+            line-height: 24px;
+
+            @media #{$maxTablet} {
+                padding: 15px
+            }
+        }
+    }
+}

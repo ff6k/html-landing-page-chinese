@@ -1,0 +1,127 @@
+/*------------------------------------*\
+    #PRICING-SECTION
+\*------------------------------------*/
+.pricing {
+    .pricing-panel {
+        width           : 370px;
+        background-color: $color-white;
+        box-shadow      : 0 0 40px rgba(101, 93, 93, 0.16);
+        padding         : 60px 35px;
+        transition      : all 0.35s ease-in-out;
+        position        : relative;
+        border-radius   : 4px;
+        border-bottom   : 4px solid $color-theme;
+        overflow        : hidden;
+        position        : absolute;
+        transform       : scale(0.85) translateX(177px);
+
+        @media #{$maxTablet} {
+            position : relative;
+            transform: scale(1) translateX(0);
+            width    : 100%;
+            max-width: 370px;
+            margin   : 0 auto 30px auto;
+        }
+
+        &.active {
+            z-index  : 2;
+            transform: scale(1);
+
+            .btn {
+                &:hover {
+                    background-color: $color-hover;
+                }
+            }
+        }
+
+        &:last-of-type {
+            z-index            : 1;
+            border-bottom-color: #F67362;
+
+            .btn {
+                background-color: #F67362;
+            }
+        }
+
+        @media #{$maxTablet} {
+            max-width    : 370px;
+            margin-right : auto;
+            margin-left  : auto;
+            margin-bottom: 30px;
+        }
+
+        @media screen and (min-width:767px) and (max-width:991px) {
+            width       : 45%;
+            float       : left;
+            margin-right: 15px;
+            margin-left : 15px;
+        }
+
+        @media only screen and (min-width: 992px) and (max-width: 1200px) {
+            width: 300px;
+        }
+
+        .pricing-head {
+            text-align   : center;
+            margin-bottom: 30px;
+
+            .pricing-name {
+                font-family  : $font-heading;
+                font-size    : 32px;
+                font-weight  : 700;
+                color        : $color-heading;
+                margin-bottom: 25px;
+            }
+
+            .currency {
+                font-family: $font-heading;
+                font-size  : 28px;
+                font-weight: 600;
+                color      : $color-heading;
+
+                span {
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .pricing-body {
+            text-align: center;
+
+            .pricing-list {
+                margin-bottom: 30px;
+
+                li {
+                    font-size    : 16px;
+                    line-height  : 1.5;
+                    font-weight  : 400;
+                    text-align   : center;
+                    padding      : 18px;
+                    border-bottom: 1px solid rgba(0, 0, 0, .1);
+
+                    &:last-child {
+                        border-bottom : none;
+                        padding-bottom: 0;
+                    }
+                }
+            }
+
+            .btn {
+                width: 186px;
+
+                .icon {
+                    margin-left: 10px;
+                }
+
+                @media #{$maxTablet} {
+                    width       : calc(100% - 30px);
+                    margin-right: auto;
+                    margin-left : auto;
+                }
+            }
+
+        }
+
+    }
+
+}

@@ -1,0 +1,104 @@
+/*------------------------------------*\
+    #Carousel
+\*------------------------------------*/
+.carousel-dots {
+    .owl-dots {
+
+        &.disabled {
+            display: flex;
+        }
+
+        display        : flex;
+        justify-content: center;
+        margin-top     : 40px;
+
+        .owl-dot {
+            width           : 10px;
+            height          : 10px;
+            border          : solid 1px $color-theme;
+            background-color: $color-theme;
+            border-radius   : 50%;
+            margin-right    : 13px;
+
+            &.active {
+                background-color: $color-white;
+                border          : 2px solid $color-theme;
+            }
+
+            &:hover,
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+
+}
+
+.carousel-navs {
+    .owl-nav {
+
+        &.disabled {
+            display: flex;
+        }
+
+        [class*="owl-"] {
+            position : absolute;
+            top      : 50%;
+            transform: translateY(-50%);
+            outline  : none;
+
+            @media screen and (max-width:1200px) {
+                display: none;
+            }
+
+            span {
+                display: none;
+            }
+
+            &::before {
+                font-family: 'icomoon';
+                font-size  : 30px;
+                color      : $color-theme;
+            }
+
+            &:hover {
+                &:before {
+                    color: $color-heading;
+                }
+            }
+
+        }
+
+        .owl-prev {
+            left     : -40px;
+            transform: rotate(-180deg) translateY(50%);
+
+            @media screen and (max-width:991px) {
+                left: 0px;
+            }
+
+            &::before {
+                content: '\e901';
+            }
+        }
+
+        .owl-next {
+            right: -40px;
+
+            @media screen and (max-width:991px) {
+                right: 0px;
+            }
+
+            &::before {
+                content: '\e901';
+            }
+        }
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .carousel-dots .owl-controls {
+        margin-top: 20px;
+    }
+}

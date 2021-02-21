@@ -1,0 +1,62 @@
+/*------------------------------------*\
+    #RESET
+\*------------------------------------*/
+*,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+a,
+dl,
+dt,
+dd,
+ol,
+ul,
+li {
+    margin : 0;
+    padding: 0;
+}
+
+*,
+:active,
+:focus {
+    outline: none !important;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+textarea {
+    resize: none;
+}
+
+::selection {
+    text-shadow: none;
+}
+
+::-moz-selection {
+    text-shadow: none;
+}
+
+::-webkit-selection {
+    text-shadow: none;
+}
+
+.form-control {
+    box-shadow: none;
+
+    &:focus {
+        box-shadow: none;
+    }
+}
+
+hr {
+    margin      : 0;
+    border-color: #FBEBEB;
+}

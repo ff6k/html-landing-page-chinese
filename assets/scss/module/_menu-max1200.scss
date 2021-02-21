@@ -1,0 +1,17 @@
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.header {
+		.navbar {
+			.navbar-nav {
+				>li {
+					margin-right: 16px;
+				}
+			}
+		}
+	}
+
+	.module .module-icon,
+	.module-consultation .btn {
+		margin-right: 0;
+	}
+}

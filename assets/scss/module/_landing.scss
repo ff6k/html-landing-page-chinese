@@ -1,0 +1,165 @@
+/*------------------------------------*\
+    #Promo Page
+\*------------------------------------*/
+.landing-hero {
+    padding: 125px 0 250px 0;
+
+    @media #{$maxTablet} {
+        padding: 125px 0 90px 0;
+    }
+
+    .landing-content {
+        padding-top: 100px;
+
+        @media #{$maxTablet} {
+            padding-top  : 50px;
+            margin-bottom: 50px;
+            text-align   : center;
+        }
+
+        h1 {
+            font-size    : 45px;
+            font-weight  : 500;
+            line-height  : 1.5;
+            color        : $color-white;
+            margin-bottom: 33px;
+
+            @media #{$maxTablet} {
+                font-size  : 34px;
+                line-height: 50px;
+            }
+
+            @media #{$maxLarge} {
+                font-size  : 40px;
+                line-height: 50px;
+            }
+        }
+
+        @media #{$maxTablet} {
+            font-size  : 50px;
+            line-height: 55px;
+        }
+
+        p {
+            font-family: $font-heading;
+            font-size  : 18px;
+            line-height: 27px;
+        }
+
+        .scroll-to {
+            i {
+                transform: rotate(90deg);
+                display  : inline-block;
+                color    : $color-theme;
+                font-size: 42px;
+                cursor   : pointer;
+                animation: 1s Up-Down ease-in-out infinite;
+            }
+        }
+    }
+}
+
+
+.landing-demos {
+    padding: 120px 0 40px 0;
+
+    @media #{$maxTablet} {
+
+        padding: 40px 0;
+    }
+
+    .showcase-card {
+        transition    : all 300ms;
+        margin        : 0 auto 80px auto;
+        font-size     : 16px;
+        font-weight   : 500;
+        color         : $color-heading;
+        text-align    : center;
+        text-transform: capitalize;
+
+        @media #{$maxTablet} {
+
+            max-width: 500px;
+        }
+
+        .showcase-card-img {
+            box-shadow   : 0px 30px 50px rgba(33, 37, 40, .10);
+            margin-bottom: 30px;
+
+            img {
+                max-width : 100%;
+                height    : auto;
+                transition: all 300ms ease-in-out;
+            }
+        }
+
+        a {
+            color     : $color-heading;
+            text-align: center;
+            display   : block;
+            transition: 0.3s ease-in-out;
+
+            &:hover {
+                color: $color-theme;
+            }
+
+        }
+
+        &:hover {
+            transform: translateY(-6px);
+        }
+    }
+}
+
+.landing-action {
+    padding   : 120px 0;
+    margin-top: 177px;
+    overflow  : visible;
+
+    @media #{$maxTablet} {
+        margin-top: 0;
+    }
+
+    h3 {
+        color        : #fffefe;
+        font-size    : 45px;
+        font-weight  : 500;
+        line-height  : 60px;
+        margin-bottom: 20px;
+
+        @media #{$maxTablet} {
+            font-size  : 28px;
+            line-height: 35px;
+        }
+    }
+
+    p {
+        color        : #ffffff;
+        font-size    : 18px;
+        font-weight  : 400;
+        line-height  : 1.5;
+        margin-bottom: 5px;
+    }
+}
+
+.landing-featues {
+    padding-bottom: 50px;
+
+    .feature-box {
+        margin-bottom: 50px;
+    }
+}
+
+@include keyFrame(Up-Down) {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,233 @@
+/*------------------------------------*\
+    #Features
+\*------------------------------------*/
+.features {
+    .feature-panel {
+        padding       : 40px;
+        border-radius : 4px;
+        position      : relative;
+        box-shadow    : none;
+        cursor        : pointer;
+        display       : flex;
+        flex-direction: column;
+        transition    : all 300ms linear;
+
+        &.active,
+        &:hover {
+            box-shadow: 0 0 40px rgba(101, 93, 93, .16);
+        }
+
+        @media #{$maxTablet} {
+            align-items: center;
+            max-width  : 370px;
+            margin     : 0 auto 50px auto;
+        }
+
+        .feature-icon {
+            color        : $color-theme;
+            font-size    : 53px;
+            line-height  : 78px;
+            margin-right : 0px;
+            position     : relative;
+            margin-bottom: 13px;
+            width        : 100px;
+            height       : 88px;
+            text-align   : center;
+
+            &.text-center {
+                margin-right: auto;
+                margin-left : auto;
+            }
+
+
+
+
+        }
+
+        .feature-content {
+            @media #{$maxTablet} {
+                text-align: center;
+            }
+
+            h3 {
+                font-size     : 24px;
+                line-height   : 1.5;
+                margin-bottom : 5px;
+                text-transform: capitalize;
+            }
+
+            p {
+                font-size    : 16px;
+                font-weight  : 400;
+                line-height  : 24px;
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+.about {
+    .heading {
+        margin-top   : 40px;
+        margin-bottom: 40px;
+    }
+
+    @media #{$maxSmall} {
+        .btn {
+            margin-bottom: 50px;
+        }
+    }
+
+    .about-list {
+        .about-item {
+            margin-bottom: 30px;
+            position     : relative;
+            border-radius: 4px;
+            padding      : 30px 15px;
+            box-shadow   : 0 0 40px rgba(101, 93, 93, 0.16);
+            overflow     : hidden;
+            text-align   : center;
+            border-bottom: 4px solid #55DFFC;
+
+            @media screen and (max-width:1200px) {
+                padding: 18px 10px;
+            }
+
+            .about-item-icon {
+                width     : 50px;
+                height    : 50px;
+                position  : relative;
+                margin    : 0 auto 14px auto;
+                text-align: center;
+            }
+
+            .about-item-title {
+                font-family   : $font-heading;
+                color         : $color-heading;
+                font-size     : 14px;
+                line-height   : 24px;
+                font-weight   : 700;
+                text-transform: capitalize;
+                position      : relative;
+                z-index       : 1;
+            }
+
+
+
+            &.style-1 {
+                border-bottom-color: #F67362;
+            }
+
+            &.style-2 {
+                border-bottom-color: #55DFFC;
+            }
+
+            &.style-3 {
+                border-bottom-color: #9775F9;
+            }
+
+        }
+    }
+}
+
+.author {
+
+    @media #{$maxSmall} {
+        text-align: center;
+    }
+
+    .author-education {
+        h3 {
+            font-size    : 20px;
+            font-weight  : 700;
+            margin-bottom: 30px;
+
+            @media #{$maxSmall} {
+                font-size: 24px;
+            }
+        }
+
+        .education-list {
+            .education-item {
+                margin-bottom   : 30px;
+                border-radius   : 4px;
+                background-color: $color-white;
+                box-shadow      : 0 0 40px rgba(101, 93, 93, 0.16);
+                padding         : 30px 30px 30px 20px;
+                border-bottom   : 4px solid $color-theme;
+
+                @media only screen and (min-width: 992px) and (max-width: 1200px) {
+                    padding: 20px;
+                }
+
+                .education-title {
+                    font-family   : $font-heading;
+                    color         : $color-heading;
+                    font-size     : 16px;
+                    font-weight   : 700;
+                    text-transform: capitalize;
+                    margin-bottom : 5px;
+                }
+
+                .education-period {
+                    font-size    : 15px;
+                    line-height  : 17px;
+                    color        : $color-theme;
+                    margin-bottom: 10px;
+                }
+
+                .education-desc {
+                    font-size: 16px;
+                }
+
+                &.style-1 {
+                    border-bottom-color: #F67362;
+
+                    .education-period {
+                        color: #F67362
+                    }
+                }
+
+                &.style-2 {
+                    border-bottom-color: #55DFFC;
+
+                    .education-period {
+                        color: #55DFFC
+                    }
+                }
+            }
+        }
+    }
+
+    .author-social {
+        h4 {
+            font-size: 20px;
+        }
+
+        a {
+            width        : 32px;
+            height       : 32px;
+            line-height  : 32px;
+            font-size    : 16px;
+            color        : #BABABA;
+            border       : 1px solid #BABABA;
+            display      : inline-block;
+            border-radius: 50%;
+            text-align   : center;
+            margin-right : 10px;
+
+            &:hover {
+                color       : $color-theme;
+                border-color: $color-theme;
+            }
+        }
+
+
+    }
+
+    @media #{$maxSmall} {
+        img {
+            margin-bottom: 50px;
+        }
+    }
+}

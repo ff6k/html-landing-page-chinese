@@ -1,0 +1,36 @@
+//Base rules
+@import "base/vars";
+@import "base/mixins";
+@import "base/base";
+
+//Layout rules
+@import "layout/typography";
+@import "layout/color";
+@import "layout/align";
+@import "layout/grid.scss";
+@import "layout/background";
+@import "layout/buttons";
+@import "layout/forms";
+@import "layout/accordion";
+
+//Module rules
+@import "module/heading";
+@import "module/loading";
+@import "module/contact";
+@import "module/header.scss";
+@import "module/menu";
+@import "module/menu-max991";
+@import "module/menu-max1200";
+@import "module/menu-min992.scss";
+@import "module/modules.scss";
+@import "module/hero";
+@import "module/testimonial.scss";
+@import "module/feature";
+@import "module/action.scss";
+@import "module/pricing";
+@import "module/footer";
+@import "module/carousel";
+@import "module/landing";
+
+
+

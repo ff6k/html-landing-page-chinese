@@ -1,0 +1,82 @@
+/*------------------------------------*\
+    #Menu
+\*------------------------------------*/
+.header {
+    .module-container {
+        padding-left: 35px;
+
+        @media screen and (min-width:992px) and (max-width:1200px) {
+            padding-left: 15px;
+        }
+
+        @media #{$maxTablet} {
+            padding-left: 0;
+            margin-top  : 15px;
+        }
+
+        .module-cta {
+            .btn {
+                width           : auto;
+                height          : 50px;
+                padding         : 0 17px;
+                display         : block;
+                cursor          : pointer;
+                color           : $color-white;
+                font-size       : 16px;
+                font-weight     : 600;
+                text-transform  : capitalize;
+                border-radius   : 5px;
+                display         : flex;
+                justify-content : center;
+                align-items     : center;
+                z-index         : inherit;
+                transition      : all 0.3s ease-in-out;
+                outline         : none;
+                background-color: transparent;
+                border          : 1px solid $color-white;
+
+                .icon {
+                    margin-left: 15px;
+                }
+
+                &:hover {
+                    background-color: $color-secondary;
+                    border-color    : $color-secondary;
+                    color           : $color-white;
+                }
+
+                @media #{$maxTablet} {
+                    width           : auto;
+                    height          : 40px;
+                    line-height     : 40px;
+                    font-size       : 13px;
+                    margin-right    : 15px;
+                    background-color: $color-secondary;
+                    border-color    : $color-secondary;
+                    color           : $color-white;
+
+                    &:before {
+                        line-height: 40px;
+                    }
+                }
+            }
+        }
+    }
+
+    .navbar-fixed {
+        .module-container {
+            .module-cta {
+                .btn {
+                    background-color: $color-secondary;
+                    border-color    : $color-secondary;
+                    color           : $color-white;
+
+                    &:hover {
+                        background-color: $color-hover;
+                        border-color    : $color-hover;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="270.378" height="161.153" viewBox="0 0 270.378 161.153">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Clip_2" data-name="Clip 2" d="M47.864,16.344c3.189,3.688,8.924,10.32,6.868,15.213C50.513,41.59,13.537,44.3,3.1,26.168c-3.851-6.691-4.57-17.056.466-22.3" transform="translate(0.013 0.167)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.64" y1="1.408" x2="0.368" y2="-0.204" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d6e6fd"/>
+      <stop offset="1" stop-color="#d1e2fd"/>
+    </linearGradient>
+    <clipPath id="clip-path-2">
+      <path id="Clip_4" data-name="Clip 4" d="M237.54,1.66c24.72,9.916,39.722,42.764,29.684,79.6a106.865,106.865,0,0,1-24.35,43.727l-86.944.056-22.055.012-53.822.032-47.138.028L0,125.134c6.585-24.192,19.266-56.3,44.855-64.309,22.107-6.92,22.64,10.167,49.564,14.149" transform="translate(0 0.359)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" x1="-0.005" y1="0.956" x2="0.969" y2="0.447" xlink:href="#linear-gradient"/>
+    <clipPath id="clip-path-3">
+      <path id="Clip_12" data-name="Clip 12" d="M1.061,10.694a1.348,1.348,0,0,0-.39,2.481h0L11.223,19.4l-.178,11.33a1.456,1.456,0,0,0,2.326,1.162h0l8.457-6.227-1.841-1.757L46.506,0Z" transform="translate(0.135 0.421)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-3" x1="0.916" y1="0.152" x2="-0.345" y2="0.996" xlink:href="#linear-gradient"/>
+    <clipPath id="clip-path-4">
+      <path id="Clip_16" data-name="Clip 16" d="M.436,23.445a1.412,1.412,0,0,0-.028,2.013h0l.773.774L11.33,33.679a1.334,1.334,0,0,0,2.049-.649h0L25.233,0Z" transform="translate(0.417 0.43)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-4" x1="0.949" y1="0.211" x2="-1.086" y2="2.086" xlink:href="#linear-gradient"/>
+    <clipPath id="clip-path-5">
+      <path id="Clip_18" data-name="Clip 18" d="M0,2.945a9.427,9.427,0,0,0,13.187-.491h0A9.374,9.374,0,0,0,6.844,0h0A9.366,9.366,0,0,0,0,2.945" transform="translate(0.428 0.089)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-5" x1="0.741" y1="-0.125" x2="0.259" y2="1.125" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2d419a"/>
+      <stop offset="1" stop-color="#363182"/>
+    </linearGradient>
+    <clipPath id="clip-path-6">
+      <path id="Clip_24" data-name="Clip 24" d="M0,2.945a9.427,9.427,0,0,0,13.187-.491h0A9.37,9.37,0,0,0,6.845,0h0A9.375,9.375,0,0,0,0,2.945" transform="translate(0.325 0.405)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-6" x1="0.741" y1="-0.125" x2="0.259" y2="1.125" xlink:href="#linear-gradient-5"/>
+    <clipPath id="clip-path-7">
+      <path id="Clip_26" data-name="Clip 26" d="M0,12.641l18.11,18.9c4.931,5.146,12.956,5.419,17.261.587h0c4.305-4.831,3-12.65-2.8-16.818h0L11.265,0Z" transform="translate(0.571 0.312)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-7" x1="1.58" y1="1.43" x2="0.062" y2="0.148" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5b75c8"/>
+      <stop offset="1" stop-color="#2d419a"/>
+    </linearGradient>
+    <clipPath id="clip-path-8">
+      <path id="Clip_28" data-name="Clip 28" d="M43.994.707.515,50.476A2.094,2.094,0,0,0,.7,53.419h0l42.253,37.4a18.055,18.055,0,0,0,25.6-1.655h0L90.814,63.685a18.349,18.349,0,0,0,3.01-19.349h0a18.166,18.166,0,0,0-4.654-6.419h0L46.917.52A2.056,2.056,0,0,0,45.549,0h0a2.057,2.057,0,0,0-1.555.707" transform="translate(0.51 0.363)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-8" x1="1.177" y1="1.107" x2="0.157" y2="0.199" xlink:href="#linear-gradient"/>
+    <clipPath id="clip-path-9">
+      <path id="Clip_34" data-name="Clip 34" d="M0,52.8l5.8,5.063c7.05,6.158,18.62,4.537,25.838-3.617h0l20.589-23.26a22.541,22.541,0,0,0,1.743-2.238h0c5.444-7.928,4.992-18.074-1.433-23.687h0L46.737,0Z" transform="translate(0.059 0.126)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-9" x1="-0.513" y1="1.551" x2="0.928" y2="0.209" xlink:href="#linear-gradient-7"/>
+    <clipPath id="clip-path-10">
+      <path id="Clip_36" data-name="Clip 36" d="M2.418.7,0,3.485C1.879,5.859,5.866,8.767,12.209,13.522h0c18.857,14.136,22.6,17.662,22.7,22.286h0c.12,5.77-8.4,11.938-7.067,14.244h0L42.272,33.433,5.3.515A2.019,2.019,0,0,0,3.95,0h0A2.022,2.022,0,0,0,2.418.7" transform="translate(0.28 0.36)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-10" x1="0.634" y1="0.667" x2="-0.82" y2="-0.576" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5b75c8"/>
+      <stop offset="1" stop-color="#d1e2fd"/>
+    </linearGradient>
+    <clipPath id="clip-path-11">
+      <path id="Clip_42" data-name="Clip 42" d="M0,0H10.323V10.324H0Z" transform="translate(0.363 0.126)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-12">
+      <path id="Clip_46" data-name="Clip 46" d="M0,29.067c-.14,16.261,13.491,29.562,29.476,29.562h28.4S-4.544,34.453,30.007.025h0C29.608.008,29.212,0,28.817,0h0A29.056,29.056,0,0,0,0,29.067" transform="translate(0.031 0.017)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-11" x1="0.496" y1="0.759" x2="0.112" y2="-1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fd9170"/>
+      <stop offset="1" stop-color="#fdd4c3"/>
+    </linearGradient>
+  </defs>
+  <g id="编组_14" data-name="编组 14" transform="translate(0 -0.126)">
+    <g id="编组">
+      <g id="编组-2" data-name="编组" transform="translate(0 7)">
+        <g id="编组-3" data-name="编组" transform="translate(90.125)" opacity="0.412">
+          <path id="Clip_2-2" data-name="Clip 2" d="M47.864,16.344c3.189,3.688,8.924,10.32,6.868,15.213C50.513,41.59,13.537,44.3,3.1,26.168c-3.851-6.691-4.57-17.056.466-22.3" transform="translate(0.013 0.167)" fill="none"/>
+          <g id="编组-4" data-name="编组" clip-path="url(#clip-path)">
+            <path id="Fill_1" data-name="Fill 1" d="M54.732,31.556C50.513,41.59,13.537,44.3,3.1,26.168c-3.851-6.691-4.57-17.056.466-22.3,8.561-8.912,32.248-1.459,44.3,12.475,3.189,3.688,8.924,10.32,6.868,15.213" transform="translate(0.013 0.167)" fill="url(#linear-gradient)"/>
+          </g>
+        </g>
+        <g id="编组-5" data-name="编组" transform="translate(0 24.496)">
+          <path id="Clip_4-2" data-name="Clip 4" d="M237.54,1.66c24.72,9.916,39.722,42.764,29.684,79.6a106.865,106.865,0,0,1-24.35,43.727l-86.944.056-22.055.012-53.822.032-47.138.028L0,125.134c6.585-24.192,19.266-56.3,44.855-64.309,22.107-6.92,22.64,10.167,49.564,14.149" transform="translate(0 0.359)" fill="none"/>
+          <g id="编组-6" data-name="编组" clip-path="url(#clip-path-2)">
+            <path id="Fill_3" data-name="Fill 3" d="M267.224,81.259a106.865,106.865,0,0,1-24.35,43.727l-86.944.056-22.055.012-53.822.032-47.138.028L0,125.134c6.585-24.192,19.266-56.3,44.855-64.309,22.107-6.92,22.64,10.167,49.564,14.149C165.443,85.469,198.716-13.912,237.54,1.66c24.72,9.916,39.722,42.764,29.684,79.6" transform="translate(0 0.359)" opacity="0.376" fill="url(#linear-gradient-2)"/>
+          </g>
+        </g>
+        <path id="Stroke_5" data-name="Stroke 5" d="M0,.314H181.049" transform="translate(37.835 151.216)" fill="none" stroke="#5c75c9" stroke-linecap="round" stroke-miterlimit="10" stroke-width="5.497"/>
+        <path id="Stroke_7" data-name="Stroke 7" d="M0,.314H19.67" transform="translate(228.746 150.92)" fill="none" stroke="#5c75c9" stroke-linecap="round" stroke-miterlimit="10" stroke-width="5.497"/>
+        <path id="Stroke_9" data-name="Stroke 9" d="M0,.314H7.673" transform="translate(23.043 150.92)" fill="none" stroke="#5c75c9" stroke-linecap="round" stroke-miterlimit="10" stroke-width="5.497"/>
+      </g>
+      <g id="编组-7" data-name="编组" transform="translate(217 21)">
+        <path id="Clip_12-2" data-name="Clip 12" d="M1.061,10.694a1.348,1.348,0,0,0-.39,2.481h0L11.223,19.4l-.178,11.33a1.456,1.456,0,0,0,2.326,1.162h0l8.457-6.227-1.841-1.757L46.506,0Z" transform="translate(0.135 0.421)" fill="none"/>
+        <g id="编组-8" data-name="编组" clip-path="url(#clip-path-3)">
+          <path id="Fill_11" data-name="Fill 11" d="M1.061,10.694a1.348,1.348,0,0,0-.39,2.481h0L11.223,19.4l-.178,11.33a1.456,1.456,0,0,0,2.326,1.162h0l8.457-6.227-1.841-1.757L46.506,0Z" transform="translate(0.135 0.421)" fill="url(#linear-gradient-3)"/>
+        </g>
+      </g>
+      <path id="Fill_13" data-name="Fill 13" d="M.179,19.251,35,0,10.644,25.466,2.186,31.728A1.367,1.367,0,0,1,0,30.63Z" transform="translate(229 22)" fill="#a1bff1"/>
+      <g id="编组-9" data-name="编组" transform="translate(238 21)">
+        <path id="Clip_16-2" data-name="Clip 16" d="M.436,23.445a1.412,1.412,0,0,0-.028,2.013h0l.773.774L11.33,33.679a1.334,1.334,0,0,0,2.049-.649h0L25.233,0Z" transform="translate(0.417 0.43)" fill="none"/>
+        <g id="编组-10" data-name="编组" clip-path="url(#clip-path-4)">
+          <path id="Fill_15" data-name="Fill 15" d="M.436,23.445a1.412,1.412,0,0,0-.028,2.013h0l.773.774L11.33,33.679a1.334,1.334,0,0,0,2.049-.649h0L25.233,0Z" transform="translate(0.417 0.43)" fill="url(#linear-gradient-4)"/>
+        </g>
+      </g>
+      <g id="编组-11" data-name="编组" transform="translate(232 124)">
+        <path id="Clip_18-2" data-name="Clip 18" d="M0,2.945a9.427,9.427,0,0,0,13.187-.491h0A9.374,9.374,0,0,0,6.844,0h0A9.366,9.366,0,0,0,0,2.945" transform="translate(0.428 0.089)" fill="none"/>
+        <g id="编组-12" data-name="编组" clip-path="url(#clip-path-5)">
+          <path id="Fill_17" data-name="Fill 17" d="M0,2.945a9.427,9.427,0,0,0,13.187-.491h0A9.374,9.374,0,0,0,6.844,0h0A9.366,9.366,0,0,0,0,2.945" transform="translate(0.428 0.089)" fill="url(#linear-gradient-5)"/>
+        </g>
+      </g>
+      <g id="编组-13" data-name="编组" transform="translate(228 111)">
+        <path id="Fill_19" data-name="Fill 19" d="M2.453,0h0a10.277,10.277,0,0,1,.491,13.865A10.278,10.278,0,0,1,2.453,0" transform="translate(0.43 18.036)" fill="#fd9271"/>
+        <path id="Fill_21" data-name="Fill 21" d="M2.453,0h0a10.278,10.278,0,0,1,.491,13.865A10.276,10.276,0,0,1,2.453,0" transform="translate(0.113 0.624)" fill="#5c75c9"/>
+      </g>
+      <g id="编组-14" data-name="编组" transform="translate(215 125)">
+        <path id="Clip_24-2" data-name="Clip 24" d="M0,2.945a9.427,9.427,0,0,0,13.187-.491h0A9.37,9.37,0,0,0,6.845,0h0A9.375,9.375,0,0,0,0,2.945" transform="translate(0.325 0.405)" fill="none"/>
+        <g id="编组-15" data-name="编组" clip-path="url(#clip-path-6)">
+          <path id="Fill_23" data-name="Fill 23" d="M0,2.945a9.427,9.427,0,0,0,13.187-.491h0A9.37,9.37,0,0,0,6.845,0h0A9.375,9.375,0,0,0,0,2.945" transform="translate(0.325 0.405)" fill="url(#linear-gradient-6)"/>
+        </g>
+      </g>
+      <g id="编组-16" data-name="编组" transform="translate(152 102)">
+        <path id="Clip_26-2" data-name="Clip 26" d="M0,12.641l18.11,18.9c4.931,5.146,12.956,5.419,17.261.587h0c4.305-4.831,3-12.65-2.8-16.818h0L11.265,0Z" transform="translate(0.571 0.312)" fill="none"/>
+        <g id="编组-17" data-name="编组" clip-path="url(#clip-path-7)">
+          <path id="Fill_25" data-name="Fill 25" d="M0,12.641l18.11,18.9c4.931,5.146,12.956,5.419,17.261.587h0c4.305-4.831,3-12.65-2.8-16.818h0L11.265,0Z" transform="translate(0.571 0.312)" fill="url(#linear-gradient-7)"/>
+        </g>
+      </g>
+      <g id="编组-18" data-name="编组" transform="translate(79 32)">
+        <path id="Clip_28-2" data-name="Clip 28" d="M43.994.707.515,50.476A2.094,2.094,0,0,0,.7,53.419h0l42.253,37.4a18.055,18.055,0,0,0,25.6-1.655h0L90.814,63.685a18.349,18.349,0,0,0,3.01-19.349h0a18.166,18.166,0,0,0-4.654-6.419h0L46.917.52A2.056,2.056,0,0,0,45.549,0h0a2.057,2.057,0,0,0-1.555.707" transform="translate(0.51 0.363)" fill="none"/>
+        <g id="编组-19" data-name="编组" clip-path="url(#clip-path-8)">
+          <path id="Fill_27" data-name="Fill 27" d="M43.994.707.515,50.476A2.094,2.094,0,0,0,.7,53.419h0l42.253,37.4a18.055,18.055,0,0,0,25.6-1.655h0L90.814,63.685a18.349,18.349,0,0,0,3.01-19.349h0a18.166,18.166,0,0,0-4.654-6.419h0L46.917.52A2.056,2.056,0,0,0,45.549,0h0a2.057,2.057,0,0,0-1.555.707" transform="translate(0.51 0.363)" fill="url(#linear-gradient-8)"/>
+        </g>
+      </g>
+      <g id="编组-20" data-name="编组" transform="translate(84 44)">
+        <path id="Fill_29" data-name="Fill 29" d="M0,33.583l10.743,9.426a7.5,7.5,0,0,0,11.082-9.956,6.845,6.845,0,0,1-.775-.922,7.5,7.5,0,0,1,11.082-9.955L43.579,32.219a7.5,7.5,0,1,0,9.915-11.251L29.6,0Z" transform="translate(0.495 0.022)" fill="#fa8a68"/>
+        <path id="Fill_31" data-name="Fill 31" d="M0,0A6.925,6.925,0,0,1,1.015.649,6.906,6.906,0,0,1,0,0" transform="translate(32.241 20.015)" fill="#48a3fe"/>
+      </g>
+      <g id="编组-21" data-name="编组" transform="translate(118 66)">
+        <path id="Clip_34-2" data-name="Clip 34" d="M0,52.8l5.8,5.063c7.05,6.158,18.62,4.537,25.838-3.617h0l20.589-23.26a22.541,22.541,0,0,0,1.743-2.238h0c5.444-7.928,4.992-18.074-1.433-23.687h0L46.737,0Z" transform="translate(0.059 0.126)" fill="none"/>
+        <g id="编组-22" data-name="编组" clip-path="url(#clip-path-9)">
+          <path id="Fill_33" data-name="Fill 33" d="M0,52.8l5.8,5.063c7.05,6.158,18.62,4.537,25.838-3.617h0l20.589-23.26a22.541,22.541,0,0,0,1.743-2.238h0c5.444-7.928,4.992-18.074-1.433-23.687h0L46.737,0Z" transform="translate(0.059 0.126)" fill="url(#linear-gradient-9)"/>
+        </g>
+      </g>
+      <g id="编组-23" data-name="编组" transform="translate(121 33)">
+        <path id="Clip_36-2" data-name="Clip 36" d="M2.418.7,0,3.485C1.879,5.859,5.866,8.767,12.209,13.522h0c18.857,14.136,22.6,17.662,22.7,22.286h0c.12,5.77-8.4,11.938-7.067,14.244h0L42.272,33.433,5.3.515A2.019,2.019,0,0,0,3.95,0h0A2.022,2.022,0,0,0,2.418.7" transform="translate(0.28 0.36)" fill="none"/>
+        <g id="编组-24" data-name="编组" clip-path="url(#clip-path-10)">
+          <path id="Fill_35" data-name="Fill 35" d="M2.418.7,0,3.485C1.879,5.859,5.866,8.767,12.209,13.522h0c18.857,14.136,22.6,17.662,22.7,22.286h0c.12,5.77-8.4,11.938-7.067,14.244h0L42.272,33.433,5.3.515A2.019,2.019,0,0,0,3.95,0h0A2.022,2.022,0,0,0,2.418.7" transform="translate(0.28 0.36)" fill="url(#linear-gradient-10)"/>
+        </g>
+      </g>
+      <path id="Fill_37" data-name="Fill 37" d="M3.5,0l.429.784A5.762,5.762,0,0,0,6.216,3.071L7,3.5l-.784.429A5.762,5.762,0,0,0,3.929,6.216L3.5,7l-.429-.784A5.762,5.762,0,0,0,.784,3.929L0,3.5l.784-.429A5.762,5.762,0,0,0,3.071.784Z" transform="translate(109 136)" fill="#5c74c6"/>
+      <path id="Fill_39" data-name="Fill 39" d="M5,0l.612,1.119A8.219,8.219,0,0,0,8.88,4.388L10,5l-1.12.612A8.226,8.226,0,0,0,5.613,8.881L5,10,4.387,8.881A8.219,8.219,0,0,0,1.12,5.612L0,5l1.12-.612A8.211,8.211,0,0,0,4.387,1.119Z" transform="translate(180 28)" fill="#5c74c6"/>
+      <g id="编组-25" data-name="编组" transform="translate(107)">
+        <path id="Clip_42-2" data-name="Clip 42" d="M0,0H10.323V10.324H0Z" transform="translate(0.363 0.126)" fill="none"/>
+        <g id="编组-26" data-name="编组" clip-path="url(#clip-path-11)">
+          <path id="Fill_41" data-name="Fill 41" d="M5.161,0l.632,1.156A8.482,8.482,0,0,0,9.166,4.53l1.156.632-1.156.632A8.49,8.49,0,0,0,5.793,9.169l-.632,1.156L4.529,9.169A8.493,8.493,0,0,0,1.156,5.795L0,5.162,1.156,4.53A8.485,8.485,0,0,0,4.529,1.156Z" transform="translate(0.363 0.125)" fill="#5c74c6"/>
+        </g>
+      </g>
+      <path id="Fill_43" data-name="Fill 43" d="M58,58H29.539C13.52,58-.138,44.843,0,28.755A28.878,28.878,0,1,1,52.127,46.214Z" transform="translate(9 42)" fill="#fd9271"/>
+      <g id="编组-27" data-name="编组" transform="translate(9 42)">
+        <path id="Clip_46-2" data-name="Clip 46" d="M0,29.067c-.14,16.261,13.491,29.562,29.476,29.562h28.4S-4.544,34.453,30.007.025h0C29.608.008,29.212,0,28.817,0h0A29.056,29.056,0,0,0,0,29.067" transform="translate(0.031 0.017)" fill="none"/>
+        <g id="编组-28" data-name="编组" clip-path="url(#clip-path-12)">
+          <path id="Fill_45" data-name="Fill 45" d="M0,29.067c-.14,16.261,13.491,29.562,29.476,29.562h28.4S-4.544,34.453,30.007.025h0C29.608.008,29.212,0,28.817,0h0A29.056,29.056,0,0,0,0,29.067" transform="translate(0.031 0.017)" fill="url(#linear-gradient-11)"/>
+        </g>
+      </g>
+      <g id="编组-29" data-name="编组" transform="translate(18 59)">
+        <path id="Stroke_47" data-name="Stroke 47" d="M31.877,18.1,19.2,6.031l-6.158,6.254L0,0" transform="translate(4.072 4.63)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="9.228"/>
+        <path id="Fill_49" data-name="Fill 49" d="M0,15.924V0H16.471Z" transform="translate(0.382 0.462)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
