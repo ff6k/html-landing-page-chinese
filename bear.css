@@ -1,0 +1,14 @@
+@media only screen and (max-width: 600px) {
+    #v3d-container{
+        width:350px !important;
+        height:350px !important;
+    }
+}
+
+#v3d-container {
+    position: relative;
+    margin: auto;
+    width:750px;
+    height:750px;
+}
+
