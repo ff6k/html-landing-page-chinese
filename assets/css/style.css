@@ -3841,7 +3841,7 @@ a.back span {
 	padding: 0px;
 }
 .dropdown dd ul li a span:first-child, .dropdown dt a span span:first-child {
-	background-image: url('https://i.imgur.com/OQiDoZe.png');
+	background-image: url('../images/flag.png');
 	background-repeat: no-repeat;
 	width: 16px;
 	height: 11px;
@@ -3850,7 +3850,7 @@ a.back span {
 	vertical-align: top;
 }
 .dropdown dt a span {
-	text-align: center;
+	/* text-align: center; */
 	cursor: pointer;
 	display: block;
 	padding: 5px;
@@ -3872,7 +3872,7 @@ a.back span {
 	padding: 0;
 }
 .dropdown dt a span span:first-child {
-	display: none;
+	/* display: none; */
 	padding: 0;
 }
 .dropdown dd {
@@ -3994,7 +3994,7 @@ dl.dropdown dt span:nth-child(3) {
 }
 .countryFlag {
 	padding: 0;
-	/* background-image: url("https://i.imgur.com/OQiDoZe.png"); */
+	background-image: url('../images/flag.png');
 	background-repeat: no-repeat;
 	display: inline-block;
 	height: 11px;
