@@ -3818,13 +3818,13 @@ a.back span {
 }
 
 .bearSection{
-	height: 800px;
-	width: 800px;
+	height: 730px;
+	width: 1050px;
 	margin: auto;
 }
 @media only screen and (max-width: 600px) {
 	.bearSection{
-		height: 400px;
+		height: 300px;
 		width: 400px;
 	}
 	dl.dropdown {
@@ -3841,7 +3841,7 @@ a.back span {
 	padding: 0px;
 }
 .dropdown dd ul li a span:first-child, .dropdown dt a span span:first-child {
-	background-image: url('https://i.imgur.com/OQiDoZe.png');
+	background-image: url('../images/flag.png');
 	background-repeat: no-repeat;
 	width: 16px;
 	height: 11px;
@@ -3850,6 +3850,7 @@ a.back span {
 	vertical-align: top;
 }
 .dropdown dt a span {
+	/* text-align: center; */
 	cursor: pointer;
 	display: block;
 	padding: 5px;
@@ -3871,6 +3872,7 @@ a.back span {
 	padding: 0;
 }
 .dropdown dt a span span:first-child {
+	/* display: none; */
 	padding: 0;
 }
 .dropdown dd {
@@ -3893,7 +3895,6 @@ a.back span {
 	border: #2d36a1 1px solid;
 	background: #fff;
 	display: block;
-	padding-right: 20px;
 	overflow: hidden;
 	width:100px;
 }
@@ -3993,7 +3994,7 @@ dl.dropdown dt span:nth-child(3) {
 }
 .countryFlag {
 	padding: 0;
-	background-image: url("https://i.imgur.com/OQiDoZe.png");
+	background-image: url('../images/flag.png');
 	background-repeat: no-repeat;
 	display: inline-block;
 	height: 11px;
