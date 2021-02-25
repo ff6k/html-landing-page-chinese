@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="en-US">
+<html dir="ltr" lang="zh-Hans">
    <head>
       <meta charset="utf-8"/>
       <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -35,7 +35,7 @@
                            <dt><a href="javascript:void(0);"><span><span style="background-position:0px -825px"></span><span>中文</span></span></a></dt>
                            <dd>
                               <ul style="display: none;">
-                                 <li><a cunt_code="+1" href="javascript:void(0);" onclick="changelanguage('En')"><span style="background-position:0px -44px"></span><span>English</span></a></li>
+                                 <li><a cunt_code="+1" id="lang-en" href="/?lang=en" onclick="changelanguage('En')"><span style="background-position:0px -44px"></span><span>English</span></a></li>
                               </ul>
                            </dd>
                         </dl>
@@ -615,6 +615,45 @@
            }
          }
          $(document).ready(function() {
+            $.urlParam = function(name){
+               var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+               if (results==null){
+                  return null;
+               }
+               else{
+                  return results[1] || 0;
+               }
+            }
+         
+            function loadJS(file) {
+               var jsElm = document.createElement("script");
+               jsElm.type = "application/javascript";
+               jsElm.src = file;
+         
+               $("body").prepend(jsElm);
+            }
+         
+            if ($.urlParam("lang") == "en") {
+               console.log("I am here!!!");
+               // loadJS("js/lang.en.js");
+               // $("#lang-en").css("font-weight", "bolder");
+            } else if ($.urlParam("lang") == "hr") {
+               loadJS("js/lang.hr.js");
+               $("#lang-hr").css("font-weight", "bolder");
+            } else {
+               loadJS("js/lang.sl.js");
+               $("#lang-sl").css("font-weight", "bolder");	
+            }
+         
+            function fillIn(key, value) {
+               document.getElementById(key).innerHTML = value;	 	
+            }
+         
+         
+            //Fill in translations	
+            // for(var key in lang) {
+            // fillIn(key, lang[key]);
+            // }
             $(".dropdown img.flag").addClass("flagvisibility");
          
             $(".dropdown dt a").click(function() {
