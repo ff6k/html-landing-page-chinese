@@ -1,14 +1,30 @@
+#v3d-container {
+    position: relative;
+    width: 1000px;
+    height:650px;
+    margin:auto
+}
+
 @media only screen and (max-width: 600px) {
-    #v3d-container{
-        width:350px !important;
-        height:350px !important;
+    #v3d-container {
+        width: 350px;
+        height:300px;
     }
 }
 
-#v3d-container {
-    position: relative;
-    margin: auto;
-    width:750px;
-    height:750px;
+.v3d-simple-preloader-logo{
+    filter: brightness(0) sepia(1) hue-rotate(180deg) saturate(0);
+    background-size: 100% 100%;
 }
 
+.v3d-simple-preloader-bar{
+    background: linear-gradient(
+        90deg
+        , #000000, #000000);
+            width: 0%;
+            height: 3px;
+            margin: 15px -1px;
+            border: 1px solid;
+            border-radius: 5px;
+            border-color: #000000;
+}

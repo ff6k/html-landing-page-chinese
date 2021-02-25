@@ -15,7 +15,9 @@ app.loadScene(url, function() {
     runCode();
 });
 
-    function runCode() {
+function runCode() {
+    // add your code here, e.g. console.log('Hello, World!');
 
-    }
+}
+
 });
