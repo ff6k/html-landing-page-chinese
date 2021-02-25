@@ -3,6 +3,7 @@
    <head class="aaaaa">
       <meta charset="utf-8"/>
       <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+      <title>个性化珠宝定制电商解决方案-JEWELWE</title>
       <meta name="author" content="Ayman Fikry"/>
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
       <meta name="description" content="Multi-purpose Business html5 template"/>
@@ -13,7 +14,6 @@
    </head>
    <body class="body-scroll">
       <div id="sectionCh">
-         <!-- <title>Personalized Jewelry Shopping Ecommerce Solution - Jewelwe</title> -->
          <div class="wrapper clearfix" id="wrapperParallax">
             <header class="header header-transparent header-sticky">
                <nav class="navbar navbar-sticky navbar-expand-lg" id="primary-menu">
@@ -304,7 +304,6 @@
          </div>
       </div>
       <div id="sectionEn" style="display: none;">
-         <!-- <title>OKOKOKOK</title> -->
          <div class="wrapper clearfix" id="wrapperParallax">
             <header class="header header-transparent header-sticky">
                <nav class="navbar navbar-sticky navbar-expand-lg" id="primary-menu">
@@ -654,14 +653,6 @@
                }
             }
          
-            function loadJS(file) {
-               var jsElm = document.createElement("script");
-               jsElm.type = "application/javascript";
-               jsElm.src = file;
-         
-               $("body").prepend(jsElm);
-            }
-         
             if ($.urlParam("lang") == "en") {
                document.title = "Personalized Jewelry Shopping Ecommerce Solution - Jewelwe"
                $("#sectionCh").css("display", 'none');
@@ -671,16 +662,6 @@
                $("#sectionEn").css("display", 'none');
                $("#sectionCh").css("display", 'block');
             }
-         
-            function fillIn(key, value) {
-               document.getElementById(key).innerHTML = value;	 	
-            }
-         
-         
-            //Fill in translations	
-            // for(var key in lang) {
-            // fillIn(key, lang[key]);
-            // }
          });
       </script>
    </body>
