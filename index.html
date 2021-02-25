@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="zh-Hans">
-   <head>
+   <head class="aaaaa">
       <meta charset="utf-8"/>
       <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
       <meta name="author" content="Ayman Fikry"/>
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
       <meta name="description" content="Multi-purpose Business html5 template"/>
-      <title>Personalized Jewelry Shopping Ecommerce Solution - Jewelwe</title>
       <link href="assets/images/favicon/favicon.png" rel="icon"/>
       <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i%7CSource+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet"/>
       <link href="assets/css/vendor.min.css" rel="stylesheet"/>
@@ -14,6 +13,7 @@
    </head>
    <body class="body-scroll">
       <div id="sectionCh">
+         <!-- <title>Personalized Jewelry Shopping Ecommerce Solution - Jewelwe</title> -->
          <div class="wrapper clearfix" id="wrapperParallax">
             <header class="header header-transparent header-sticky">
                <nav class="navbar navbar-sticky navbar-expand-lg" id="primary-menu">
@@ -35,7 +35,7 @@
                            <dt><a href="javascript:void(0);"><span><span style="background-position:0px -825px"></span><span>中文</span></span></a></dt>
                            <dd>
                               <ul style="display: none;">
-                                 <li><a cunt_code="+1" id="lang-en" href="/?lang=en" onclick="changelanguage('En')"><span style="background-position:0px -44px"></span><span>English</span></a></li>
+                                 <li><a cunt_code="+1" id="lang-en" href="/?lang=en"><span style="background-position:0px -44px"></span><span>English</span></a></li>
                               </ul>
                            </dd>
                         </dl>
@@ -304,6 +304,7 @@
          </div>
       </div>
       <div id="sectionEn" style="display: none;">
+         <!-- <title>OKOKOKOK</title> -->
          <div class="wrapper clearfix" id="wrapperParallax">
             <header class="header header-transparent header-sticky">
                <nav class="navbar navbar-sticky navbar-expand-lg" id="primary-menu">
@@ -322,10 +323,10 @@
                            <div class="module module-cta"><a class="btn" data-scroll="scrollTo" href="#"> <span>Contact US</span></a></div>
                         </div>
                            <dl id="country-select" class="dropdown">
-                              <dt><a href="javascript:void(0);"><span><span style="background-position:0px -825px"></span><span>中文</span></span></a></dt>
+                              <dt><a href="javascript:void(0);"><span><span style="background-position:0px -44px"></span><span>English</span></span></a></dt>
                               <dd>
                                  <ul style="display: none;">
-                                    <li><a cunt_code="+86" href="javascript:void(0);" onclick="changelanguage('Ch')"><span style="background-position:0px -825px"></span><span>中文</span></a></li>
+                                    <li><a cunt_code="+86" id="lang-ch" href="/?lang=ch"><span style="background-position:0px -825px"></span><span>中文</span></a></li>
                                  </ul>
                               </dd>
                            </dl>
@@ -599,15 +600,15 @@
       <script src="assets/js/vendor.min.js"></script>
       <script src="assets/js/functions.js"></script>
       <script>
-         function changelanguage(flag){
-           if(flag=="En"){
-             $("#sectionCh").css("display", 'none');
-             $("#sectionEn").css("display", 'block');
-           }else{
-             $("#sectionEn").css("display", 'none');
-             $("#sectionCh").css("display", 'block');
-           }
-         }
+         // function changelanguage(flag){
+         //   if(flag=="En"){
+         //     $("#sectionCh").css("display", 'none');
+         //     $("#sectionEn").css("display", 'block');
+         //   }else{
+         //     $("#sectionEn").css("display", 'none');
+         //     $("#sectionCh").css("display", 'block');
+         //   }
+         // }
          function setCountry(code){
            if(code || code==''){
                var text = jQuery('a[cunt_code="'+code+'"]').html();
@@ -615,45 +616,6 @@
            }
          }
          $(document).ready(function() {
-            $.urlParam = function(name){
-               var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
-               if (results==null){
-                  return null;
-               }
-               else{
-                  return results[1] || 0;
-               }
-            }
-         
-            function loadJS(file) {
-               var jsElm = document.createElement("script");
-               jsElm.type = "application/javascript";
-               jsElm.src = file;
-         
-               $("body").prepend(jsElm);
-            }
-         
-            if ($.urlParam("lang") == "en") {
-               console.log("I am here!!!");
-               // loadJS("js/lang.en.js");
-               // $("#lang-en").css("font-weight", "bolder");
-            } else if ($.urlParam("lang") == "hr") {
-               loadJS("js/lang.hr.js");
-               $("#lang-hr").css("font-weight", "bolder");
-            } else {
-               loadJS("js/lang.sl.js");
-               $("#lang-sl").css("font-weight", "bolder");	
-            }
-         
-            function fillIn(key, value) {
-               document.getElementById(key).innerHTML = value;	 	
-            }
-         
-         
-            //Fill in translations	
-            // for(var key in lang) {
-            // fillIn(key, lang[key]);
-            // }
             $(".dropdown img.flag").addClass("flagvisibility");
          
             $(".dropdown dt a").click(function() {
@@ -681,6 +643,44 @@
             $("#flagSwitcher").click(function() {
                   $(".dropdown img.flag").toggleClass("flagvisibility");
             });
+            
+            $.urlParam = function(name){
+               var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+               if (results==null){
+                  return null;
+               }
+               else{
+                  return results[1] || 0;
+               }
+            }
+         
+            function loadJS(file) {
+               var jsElm = document.createElement("script");
+               jsElm.type = "application/javascript";
+               jsElm.src = file;
+         
+               $("body").prepend(jsElm);
+            }
+         
+            if ($.urlParam("lang") == "en") {
+               document.title = "Personalized Jewelry Shopping Ecommerce Solution - Jewelwe"
+               $("#sectionCh").css("display", 'none');
+               $("#sectionEn").css("display", 'block');
+            } else if ($.urlParam("lang") == "ch") {
+               document.title = "个性化珠宝定制电商解决方案-JEWELWE"
+               $("#sectionEn").css("display", 'none');
+               $("#sectionCh").css("display", 'block');
+            }
+         
+            function fillIn(key, value) {
+               document.getElementById(key).innerHTML = value;	 	
+            }
+         
+         
+            //Fill in translations	
+            // for(var key in lang) {
+            // fillIn(key, lang[key]);
+            // }
          });
       </script>
    </body>
