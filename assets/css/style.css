@@ -3822,7 +3822,7 @@ a.back span {
 	width: 1050px;
 	margin: auto;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
 	.bearSection{
 		height: 300px;
 		width: 400px;
@@ -3832,6 +3832,12 @@ a.back span {
 		margin: 10px 0 0 0px !important;
 	}
 }
+/* @media only screen and (max-width: 1000px) {
+	.bearSection{
+		height: 500px;
+		width: 600px;
+	}
+} */
 
 .wrapper1 {
 	width:150px;

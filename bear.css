@@ -5,7 +5,7 @@
     margin:auto
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
     #v3d-container {
         width: 350px;
         height:300px;
